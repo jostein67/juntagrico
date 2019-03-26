@@ -151,7 +151,7 @@ VOCABULARY = {
     'subscription_pl' : 'Abos',
     'co_member' : 'Mitabonnent',
     'co_member_pl' : 'Mitabonnenten',
-    'price' : 'Betriebsbeitrag',
+    'price' : 'Mitgliedsbeitrag',
     'member_type' : 'Mitglied',
     'member_type_pl' : 'Mitglieder',
     'depot' : 'Depot',
@@ -166,7 +166,7 @@ ORGANISATION_ADDRESS = {"name":"Verein Erbsenpicker",
             "number" : "5",
             "zip" : "8162",
             "city" : "Sünikon",
-            "extra" : "Christian"}
+            "extra" : "c/o C. Dünki"}
 ORGANISATION_PHONE =''
 ORGANISATION_BANK_CONNECTION = {"PC" : "xxx",
             "IBAN" : "xxxx",
@@ -174,19 +174,19 @@ ORGANISATION_BANK_CONNECTION = {"PC" : "xxx",
             "NAME" : "xxx",
             "ESR" : ""}
 INFO_EMAIL = "xxx"
-SERVER_URL = "www.erbsenpicker.org"
-ADMINPORTAL_NAME = "xxx"
-ADMINPORTAL_SERVER_URL = "http://www.erbsenpicker.ch"
-BUSINESS_REGULATIONS = ""
+SERVER_URL = "www.erbsenpicker.ch"
+ADMINPORTAL_NAME = "Erbsenpicker Admin"
+ADMINPORTAL_SERVER_URL = "https://www.erbsenpicker.ch"
+BUSINESS_REGULATIONS = "https://erbsenpicker.jimdo.com/home/statuten/"
 BYLAWS = ""
 MAIL_TEMPLATE = "mails/email.html"
 STYLE_SHEET = "/static/css/personal.css"
 FAVICON = "/static/img/favicono.ico"
-FAQ_DOC = ""
+FAQ_DOC = "https://erbsenpicker.jimdo.com/home/was-wir-machen/"
 EXTRA_SUB_INFO = ""
-ACTIVITY_AREA_INFO = ""
+ACTIVITY_AREA_INFO = "https://erbsenpicker.jimdo.com/home/%C3%BCber-uns/"
 SHARE_PRICE = "100"
-ENABLE_SHARES = True
+ENABLE_SHARES = False
 BASE_FEE = ""
 CURRENCY = "CHF"
 ASSIGNMENT_UNIT = "ENTITY"
